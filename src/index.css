@@ -14,4 +14,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
+
+.cpro-logo {
+    background-image: url("/cpro-logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.drive-logo {
+    background-image: url("/drive-logo-svg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

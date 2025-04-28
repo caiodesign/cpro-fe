@@ -35,10 +35,11 @@ export default function SignUpPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex">
-      <div className="hidden lg:flex flex-1 relative overflow-hidden cpro-bg" style={{maxWidth: '35%'}}>
+      <div className="hidden lg:flex flex-1 relative overflow-hidden cpro-bg" style={{maxWidth: '40%'}}>
         <div className="absolute top-6 left-6 text-white text-2xl font-bold">
           <a href="#">
-            <img src="/cpro-logo.png" alt="Logo" className="h-24" />
+            <div className='cpro-logo h-24 w-24'>
+            </div>
           </a>
         </div>
       </div>
@@ -160,7 +161,7 @@ export default function SignUpPage() {
 
           <a href="https://drive.google.com/drive/folders/1TGvdcM_zyaduKW5QyTd_LExrFkpl6Wht?usp=sharing">
             <button className="flex items-center justify-center w-full border border-gray-300 rounded-lg py-2 hover:bg-gray-50 transition">
-              <img src="/drive.png" alt="Google Drive" className="h-5 w-5 mr-2" />
+              <div className="h-5 w-5 mr-2 drive-logo"></div>
               Download CPRO Client
             </button>
           </a>
