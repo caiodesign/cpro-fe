@@ -159,7 +159,7 @@ export default function SignUpPage() {
             <hr className="flex-grow border-gray-300" />
           </div>
 
-          <a href="https://drive.google.com/drive/folders/1TGvdcM_zyaduKW5QyTd_LExrFkpl6Wht?usp=sharing">
+          <a href="https://drive.google.com/drive/folders/1TGvdcM_zyaduKW5QyTd_LExrFkpl6Wht?usp=sharing" target="_blank">
             <button className="flex items-center justify-center w-full border border-gray-300 rounded-lg py-2 hover:bg-gray-50 transition">
               <div className="h-5 w-5 mr-2 drive-logo"></div>
               Download CPRO Client
